@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Krithika | Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #e2e8f0;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    color: #94a3b8;
+}
+
+/* SECTION CARD */
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 20px;
+    padding: 25px;
+    margin: 25px 0;
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(56,189,248,0.4);
+}
+
+/* TITLES */
+h2 {
+    color: #38bdf8;
+    margin-bottom: 12px;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+}
+
+.contact a {
+    display: inline-block;
+    margin: 8px 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background: rgba(56,189,248,0.1);
+    color: #7dd3fc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.contact a:hover {
+    background: #38bdf8;
+    color: white;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    padding: 7px 14px;
+    margin: 5px;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #38bdf8, #6366f1);
+    color: white;
+    font-size: 13px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #94a3b8;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Krithika T</h1>
+    <p>Aspiring Software Engineer</p>
+</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>✨ About Me</h2>
+        <p>
+            Passionate IT student focused on building modern web applications,
+            exploring cloud technologies, and solving real-world problems.
+        </p>
+    </div>
+
+    <div class="card">
+        <h2>🎓 Education</h2>
+        <p><strong>B.Tech IT</strong><br>Dr Mahalingam College of Engineering and Technology</p>
+        <p>HSC - 74.5% (2024)</p>
+        <p>SSLC - 82% (2022)</p>
+    </div>
+
+    <div class="card skills">
+        <h2>💻 Skills</h2>
+        <span>Java</span>
+        <span>Python</span>
+        <span>C++</span>
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>React</span>
+        <span>Node.js</span>
+        <span>MySQL</span>
+        <span>AWS</span>
+        <span>Azure</span>
+        <span>Git</span>
+    </div>
+
+    <div class="card">
+        <h2>📁 Projects</h2>
+        <p><strong>API Integration Website</strong></p>
+        <p>Built a website integrating APIs without external plugins.</p>
+    </div>
+
+    <div class="card">
+        <h2>💼 Internship</h2>
+        <p><strong>Infosys - Software Development Intern</strong></p>
+        <p>Worked on API integration and troubleshooting with a team.</p>
+    </div>
+
+    <div class="card">
+        <h2>📜 Certifications</h2>
+        <p>HTML, CSS, JavaScript for Web Developers</p>
+        <p>SQL (Basic) - HackerRank</p>
+    </div>
+
+    <div class="card">
+        <h2>🌟 Extracurricular</h2>
+        <p>NSS Club Member</p>
+        <p>Playing Shuttlecock</p>
+    </div>
+
+    <!-- CONTACT MOVED TO BOTTOM -->
+    <div class="card contact">
+        <h2>📞 Contact Me</h2>
+        <a href="mailto:Krithika081106@gmail.com">Email</a>
+        <a href="#">Phone</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Krithika ss</p>
+</footer>
+
+</body>
+</html>
